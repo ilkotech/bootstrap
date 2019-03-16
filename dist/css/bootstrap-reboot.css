@@ -33,7 +33,7 @@ body {
   background-color: #fff;
 }
 
-[tabindex="-1"]:focus {
+[tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
 
@@ -123,13 +123,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #ff3e3e;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #f10000;
   text-decoration: underline;
 }
 
